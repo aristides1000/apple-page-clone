@@ -171,4 +171,12 @@ img {
     width: 100%;
 }
 
+.main-footer {
+    width: 80%;
+    font-size: 0.625rem;
+    font-weight: 500;
+    color: gray;
+    margin: 25px auto;
+}
+
 
