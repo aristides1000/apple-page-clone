@@ -103,6 +103,11 @@ body {
   background: -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
   background: -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
   background: -o-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+  color: white;
+}
+
+::placeholder {
+  color: white;
 }
 
 .search-btn > .search-icon {
@@ -220,4 +225,8 @@ img {
   margin-left: 0.625rem;
   padding-left: 0.625rem;
   border-left: 1px solid #ccc;
+}
+
+.fontAwesome {
+  font-family: 'Helvetica', FontAwesome, sans-serif;
 }
