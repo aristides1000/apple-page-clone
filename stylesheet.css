@@ -117,6 +117,11 @@ body {
   font-weight: bolder;
 }
 
+.text-decoration-none-2 {
+  text-decoration: none;
+  color: white;
+}
+
 .disp-grd {
   min-width: 1102px;
   display: grid;
