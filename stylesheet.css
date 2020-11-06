@@ -3,9 +3,12 @@
   src: url("./assets/fonts/Myriad-Pro-ULTRA-Light.ttf");
 }
 
-:root {
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
+}
+
+:root {
   box-sizing: border-box;
 }
 
