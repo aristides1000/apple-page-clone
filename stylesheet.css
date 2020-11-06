@@ -104,13 +104,71 @@ ul {
     padding-inline-start: 0px;
 }
 
-.display-grid {
+.disp-grd {
     min-width: 1102px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 650px 1fr;
     grid-template-areas:
-    "header-div header-div header-div header-div"
-    "iphone-5s iphone-5c 30-years div-responsibility";
+    "head-d head-d head-d head-d"
+    "ip-5s ip-5c 30-y di-r";
     gap: 2px;
 }
+
+.head-d {
+    font-family: MyriadPro-Lightr, Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    background: #b3d9e9 url("assets/main-screen.jpg") center 700px;
+    background-size: 100%;
+    grid-area: head-d;
+}
+
+.head-d a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.h-m-ver-be {
+    margin-top: 250px;
+    font-weight: lighter;
+    font-size: 65px;
+}
+
+.main-share {
+    margin-top: 5px;
+    font-size: 2.2rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.v-img {
+    margin-top: 1.8em;
+}
+
+.v-img a {
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.v-img a:hover {
+    text-decoration: underline;
+}
+
+.p-btn {
+    position: relative;
+    top: 0.5rem;
+    margin-left: 0.5rem;
+    width: 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+
