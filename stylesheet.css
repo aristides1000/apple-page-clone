@@ -103,3 +103,14 @@ body {
 ul {
     padding-inline-start: 0px;
 }
+
+.display-grid {
+    min-width: 1102px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 650px 1fr;
+    grid-template-areas:
+    "header-div header-div header-div header-div"
+    "iphone-5s iphone-5c 30-years div-responsibility";
+    gap: 2px;
+}
