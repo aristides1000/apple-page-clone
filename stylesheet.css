@@ -171,12 +171,49 @@ img {
     width: 100%;
 }
 
-.main-footer {
+.m-foot {
     width: 80%;
     font-size: 0.625rem;
     font-weight: 500;
     color: gray;
     margin: 25px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.m-foot a {
+    text-decoration: none;
+    color: #0088cf;
+}
 
+.m-foot a:hover {
+    text-decoration: underline;
+}
+
+.foot-cont {
+    display: flex;
+    align-items: center;
+}
+
+.foot-cont p {
+    margin: 0;
+}
+
+.foot-l {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    margin-left: 3.125rem;
+}
+
+.foot-l li {
+    list-style-position: inside;
+    border-right: 1px solid #ccc;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.la-lnk {
+    margin-left: 0.625rem;
+    padding-left: 0.625rem;
+    border-left: 1px solid #ccc;
+}
