@@ -12,7 +12,9 @@ body {
     justify-content: center;
     text-align: center;
     list-style: none;
-    margin-top: 70px;
+    position: absolute;
+    top: 10%;
+    width: 100%;
 }
 
 .navbar > ul > li {
