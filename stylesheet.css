@@ -1,0 +1,62 @@
+@font-face {
+    font-family: MyriadPro-Lightr;
+    src: url("./assets/fonts/Myriad-Pro-ULTRA-Light.ttf");
+}
+
+body {
+    font-family: MyriadPro-Lightr, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin-top: 70px;
+}
+
+.navbar > ul > li {
+    display: block;
+    border: 1px solid grey;
+    width: 100px;
+    height: 28px;
+    text-align: center;
+    background: -webkit-gradient(linear, 0 100%, 0 0,
+    from(#666),
+    color-stop(0.5, #5e5e5e),
+    color-stop(0.51, #707070),
+    to(#808080));
+    background: -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+    background: -o-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+}
+
+.ul-nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.first-icon {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.decoration-none-ul {
+    list-style: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
